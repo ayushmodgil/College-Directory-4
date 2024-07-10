@@ -1,0 +1,113 @@
+.bg-body-tertiary{
+    background-color:#291892 !important;
+   padding: 0 !important;
+   color: white;
+
+}
+.li-none ul li{
+    list-style: none;
+
+}
+.toggle-btn{
+    background:white;
+    border-color: white;
+}
+.media-q{
+    border-left:1px solid #ddd;
+}
+/* .navbar-collapse{
+    margin-left: 170px;
+} */
+@media (max-width:1180px) {
+   
+    .navbar-collapse{
+        margin-left: 0px !important;
+    }
+}
+@media (max-width:991px) {
+    .media-q{
+        border-left:0px;
+    }
+   
+}
+
+/* ----Left Side Box--- */
+
+.stream-box{
+    height: 200px;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 8px 0px #00000014;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: block;
+    overflow: auto;  
+}
+.stream-box::-webkit-scrollbar {
+    width: 7px;
+  }
+  .stream-box::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  .stream-box::-webkit-scrollbar-thumb {
+    background: rgb(116, 116, 116); 
+  }
+  .stream-box::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  /* ----Right Content Box--- */
+
+  .main-box{
+    background: #F7F7F7;
+    border: 1px solid #E9E9EC;
+    border-radius: 8px;
+  }
+  .btn-detail{
+    background:#F7F7F7;
+    border-radius: 16px;
+    border: none;
+    box-shadow: 0px 0px 3px 0px rgb(181, 181, 181);
+    font-size: 15px;
+}
+.btn-apply-now{
+    background: #FFFFFF;
+    border: 1px solid #E9E9EC;
+    color: #291892;
+    border-radius: 17px;
+    box-shadow: 0px 0px 3px 0px rgb(181, 181, 181);
+    padding: 5px 0px;
+}
+ .mbbs-box{
+    background: linear-gradient(92.74deg, #944747 -0.05%, #C04849 105.88%);
+    border-radius: 8px;
+ }
+
+ .text-mbbs{
+    color: #F7F7F7;
+ }
+ .btn-apply-mbbs{
+    background: #B65354;
+    border: none;
+    color: #F7F7F7;
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px 0px #A14949;
+    font-size: 15px;
+    padding: 8px 24px;
+ }
+
+ /* --Footer-- */
+
+ .Newsletter{
+    background: linear-gradient(210.84deg, rgba(51, 0, 204, 0.08) -52.8%, rgba(244, 180, 163, 0.11) 40.08%, rgba(175, 244, 198, 0.35) 110.16%);
+     width: auto;
+     min-height: 250px;
+  }
+  .footer-bg{
+    background: black;
+    color: white;
+  }
+  .li-name li{
+    list-style: none;
+  }
+ 
